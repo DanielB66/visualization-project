@@ -4,11 +4,20 @@
   <meta charset="UTF-8">
   <title>דשבורד - ניתוח נתוני נקניקים</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="https://cdn-icons-png.flaticon.com/512/1046/1046750.png">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
+
+  <!-- ניווט עליון -->
+  <nav class="navbar">
+    <div class="nav-title">🔍 ניתוח נקניקים</div>
+  </nav>
+
   <h1>דשבורד: ניתוח נתוני נקניקים</h1>
   <p>הדשבורד מציג נתונים בנוגע למכירות, סוגים והפצה של נקניקים ברחבי הארץ. הנתונים נוצרו באופן ידני לצורכי הדגמה וניתוח.</p>
 
+  <!-- דשבורד -->
   <div class='tableauPlaceholder' id='viz1743348718533' style='position: relative'>
     <noscript>
       <a href='#'>
@@ -32,6 +41,10 @@
     </object>
   </div>
 
+  <!-- כפתור חזרה למעלה -->
+  <button onclick="scrollToTop()" class="scrollTopBtn">↑ למעלה</button>
+
+  <!-- סקריפט לדשבורד ולכפתור -->
   <script type='text/javascript'>
     var divElement = document.getElementById('viz1743348718533');
     var vizElement = divElement.getElementsByTagName('object')[0];
@@ -48,6 +61,15 @@
     var scriptElement = document.createElement('script');
     scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
     vizElement.parentNode.insertBefore(scriptElement, vizElement);
+
+    // Scroll to top functionality
+    window.onscroll = function () {
+      document.querySelector('.scrollTopBtn').style.display =
+        window.scrollY > 300 ? 'block' : 'none';
+    };
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
   </script>
 </body>
 </html>

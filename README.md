@@ -17,20 +17,8 @@ The dashboard visualizes fictional data related to sausage sales – including s
 ---
 
 ### 🌐 Live Website
-[Click here to view the dashboard](https://your-username.github.io/visualization-project)
-
-> ✏️ Replace the link with your actual GitHub Pages URL after publishing.
+[Click here to view the dashboard](https://danielb66.github.io/visualization-project/)
 
 ---
 
 ### 📁 Project Structure
-```
-📦 visualization-project
- ┣ 📄 index.html     ← Contains the embedded Tableau dashboard
- ┗ 📄 README.md      ← This file
-```
-
----
-
-### 📝 How to Run
-No server required. Just open `index.html` in a browser or host it on GitHub Pages.

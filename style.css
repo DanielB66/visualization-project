@@ -1,8 +1,8 @@
 /* כלליים */
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f7f7f7;
-  color: #333;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #f8f9fa, #e9ecef);
+  color: #212529;
   margin: 0;
   padding: 0;
   direction: rtl;
@@ -11,31 +11,40 @@ body {
 
 /* כותרת */
 h1 {
-  font-size: 2em;
-  margin-top: 1.5em;
+  font-size: 2.5em;
+  margin-top: 2em;
   margin-bottom: 0.5em;
-  color: #222;
+  color: #343a40;
+  text-shadow: 1px 1px 2px rgba(0,0,0,0.1);
 }
 
 /* פסקה */
 p {
-  font-size: 1.1em;
-  margin: 0 20px 2em;
-  line-height: 1.6;
+  font-size: 1.2em;
+  margin: 0 auto 2em;
+  line-height: 1.7;
+  max-width: 700px;
+  color: #495057;
 }
 
 /* דשבורד */
 .tableauPlaceholder {
   margin: 0 auto;
-  max-width: 1200px;
+  max-width: 95%;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  overflow: hidden;
+  background-color: #ffffff;
+  padding: 1em;
 }
 
 /* התאמה למסכים קטנים */
 @media screen and (max-width: 600px) {
   h1 {
-    font-size: 1.5em;
+    font-size: 1.8em;
   }
   p {
     font-size: 1em;
+    padding: 0 10px;
   }
 }

@@ -18,7 +18,3 @@ The dashboard visualizes fictional data related to sausage sales – including s
 
 ### 🌐 Live Website
 [Click here to view the dashboard](https://danielb66.github.io/visualization-project/)
-
----
-
-### 📁 Project Structure
